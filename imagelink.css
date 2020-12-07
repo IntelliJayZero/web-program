@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+a {
+    font-size: 14px;
+    font-family: "宋体";
+    color: #A1A5AC;
+    text-decoration: none;
+    background-image: url(images/navigation/bg1.gif);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height: 37px;
+    line-height: 37px;
+}
+a:hover {
+    background-image: url(images/navigation/bg2.gif);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: "华文琥珀";
+}

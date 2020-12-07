@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+div.pic {
+    /float: left;
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+}
+div.pic img {
+    border: none;
+}
+div.ls {
+    background: url(实训5素材\电子相册\framels.jpg);
+    background-repeat: no-repeat;
+    align-content: center;
+}
+div.pt {
+    background: url(实训5素材\电子相册\framept.jpg);
+    background-repeat: no-repeat;
+    align-content: center;
+}
+div.ls img {
+    float: left;
+    margin: 0px;
+    height: 90px;
+    width: 135px;
+}
+div.pt img {
+    float: left;
+    margin: 0px;
+    height: 135px;
+    width: 90px;
+}
+div.pic ul {
+    width: 260px;
+    margin: 0 0 0 170px;
+    padding: 0 0 0 0.5em;
+    position: relative;
+    top: 50px;
+}
+div.ls a {
+    display: block;
+    padding: 34px 14px 36px 11px;
+}
+div.pt a {
+    display: block;
+    padding: 11px 36px 14px 34px;
+}
+div.ls a:hover {
+    background: url(实训5素材\电子相册\framels_hover.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+div.pt a:hover {
+    background: url(实训5素材\电子相册\framept_hover.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+div.pic a.tn {
+    float: left;
+}
+*/
+div {
+	height: 160px;
+	width: 160px;
+	margin: 5px;
+	float: left;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.ls {
+	background-image: url(实训5素材/电子相册/framels.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.ls img {
+	height: 90px;
+	width: 135px;
+	margin-top: 34px;
+	margin-right: 14px;
+	margin-bottom: 36px;
+	margin-left: 11px;
+}
+.pt {
+	background-image: url(实训5素材/电子相册/framept.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.pt img {
+	height: 135px;
+	width: 90px;
+	margin-top: 11px;
+	margin-right: 36px;
+	margin-bottom: 14px;
+	margin-left: 34px;
+}
+ul {
+	width: 260px;
+	margin: 150px 0 0 0;
+	padding: 0 0 0 0.5em;
+	font-size: 12px;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #DCEEFF;
+	border: 2px solid #A7D5FF;
+	display: none;
+}
+.pt a {
+	float: left;
+}
+.ls a {
+	float: left;
+}
+.ls a:hover {
+	background-image: url(实训5素材/电子相册/framels_hover.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.pt a:hover {
+	background-image: url(实训5素材/电子相册/framept_hover.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.pic:hover ul {
+	display: block;
+	position: absolute;
+}
+li {
+	line-height: 1.2em;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li.title {
+	font-weight: bold;
+	padding-top: 0.4em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px solid #A7D5FF;
+	color: #004586;
+}
+li.catno {
+	color: #0068C9;
+	margin: 0 2px 0 13em;
+	padding-left: 5px;
+	border-left: 1px solid #A7D5FF;
+}
+li.price {
+	color: #0068C9;
+	font-style:italic;
+	margin: -1.2em 2px 0 18em;
+	padding-left: 5px;
+	border-left: 1px solid #A7D5FF;
+}

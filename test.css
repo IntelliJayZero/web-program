@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+#a {
+	height: 400px;
+	width: 225px;
+	float: left;
+	margin: 64px;
+	position: relative;
+	background-color:#FF66FF;
+	transition: transform 6s, height 6s, width 6s, background-color 6s;
+	transition-delay: 1s;
+	transition-timing-function: cubic-bezier(0.54, 0.1, 0.25, 1.2)
+}
+#a:active {
+	height: 450px;
+	width: 600px;
+	background-color: rgba(31, 224, 79, 0.5);
+	transform: rotate3d(13,-8.5,10.2,720deg);
+}
+#anima {
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+	float: left;
+	background:pink;
+	position: relative;
+	animation:myfirst 10s;
+	animation-iteration-count: 3;
+}
+@keyframes myfirst
+{
+	0%   {background:red; left:0px; top:0px;}
+	25%  {background:aquamarine; left:200px; top:0px;}
+	50%  {background:goldenrod; left:200px; top:200px;}
+	70%  {background:indigo; left:0px; top:200px;}
+	100% {background:red; left:0px; top:0px;}
+}
+#b {
+	height: 100px;
+	width: 86px;
+	margin: 20px;
+	float: left;
+	position: relative;
+	background-color: blueviolet;
+	animation: sec 6s;
+	animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+	animation-iteration-count: 5;
+}
+@keyframes sec {
+	0%		{background: gold;transform: rotate(360deg);left: 0;top: 0;}
+	31%		{background-color: aqua;left: 20px;top: 5px;}
+	52%		{background-color: navy;left: 165px;top: -30px;}
+	75%		{background: darkorchid;left: 60px;top: 80px;}
+	85%		{margin: 20px;background-color: aliceblue;}
+}
+#c {
+	height: 94px;
+	width: 80px;
+	background-repeat: no-repeat;
+	margin-left: 15px;
+	margin-top: 18px;
+	background-color: lightseagreen;
+	position: relative;
+	float: left;
+	border-radius: 40%;
+	border-color: brown;
+	border-style: dashed;
+	animation: c 5s;
+	animation-delay: 8s;
+	animation-iteration-count: 4;
+	/* animatioa-delay should behind animation */
+}
+@keyframes c {
+	0%		{background-color: plum;transform: rotate3d(-18, 13.4, 15,360deg);top: 3px;left: 5px;}
+	46%		{background-color: darkolivegreen;top: 97px;left: 50px;}
+	92%		{background-color: coral;}
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.img_l img {
+	float: left;
+	margin-right: 10px;
+}
+.img_r img {
+	float: right;
+	margin-right: 10px;
+}
+.multi li {
+	float: left;
+	width: 160px;
+	margin: 0 10px;
+	text-align: center;
+	display: inline;
+}
+.multi li p {
+	margin: 0 0 10px 0;
+}
+.reco h2 {
+	padding-top: 20px;
+	color: #069;
+	border-bottom: 1px #DEAF50 solid;
+	font: bold 22px/24px 楷体;
+	background: no-repeat bottom right;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content a img {
+	padding: 5px;
+	background: #BDD6E8;
+	border: 1px #DEAF50 solid;
+}
+.content a:hover img {
+	padding: 5px;
+	background: #3D81B4;
+	border:1px #3D81B4 solid;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font: 12px 仿宋;
+}
